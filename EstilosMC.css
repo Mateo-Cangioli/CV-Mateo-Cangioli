@@ -1,0 +1,215 @@
+/*Barra de navegacion*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-color: var(--secundary-color);
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+section[id] {
+    scroll-margin-top: 80px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+.nav-link {
+    color: var(--theme-color);
+    text-decoration: none;
+}
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu a:hover {
+    background-color: var(--primary-color);
+    color: var(--theme-color);
+}
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+.logo-nav-link{
+    color: var(--text-color);
+    padding: 20px;
+    padding-bottom: 5px;
+    font-size: larger;
+    border-style: double;
+    display: flex;
+    height: 81px;
+}
+/*Diseño de todos los titulos*/
+.titulos{
+    color: var(--theme-color);
+    position: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: var(--secundary-color);
+}
+
+/*Estilos del perfil*/
+.desc-perfil{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: left;
+}
+.perfil-btn{
+    background-color: var(--primary-color);
+    color: var(--theme-color);
+    border: none;
+    font-size: 20px;
+    padding: 0.5em 1em;
+    border-radius: 7px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;   
+}
+.perfil-btn:hover {
+    background-color: var(--secundary-color);
+    color: var(--theme-color);
+}
+.perfil-info{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 40px
+}
+.Nom-perfil{
+    color: #1048b2;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.desc-perfil{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.foto-perfil{
+    border: 3px solid #000000;
+    border-style: double;
+    padding-bottom: 0;
+}
+/*Estilos EXPERIENCIA*/
+.experi{
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px var(--text-color);
+    border-radius: 42px;
+    padding: 0.5em 0.7em;
+    margin: 10px;
+    justify-content: center
+}
+.experiences-body{
+    margin-left: 0;
+}
+/*Estilos HABILIDADES*/
+.habilidades{
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.habi-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0%;
+}
+.skills-skills {
+    color: var( --text-color);
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px ;
+    border-radius: 42px;
+    padding: 0.5em 0.7em;
+    margin: 10px;
+}
+/*Estilos EDUCACION*/
+* {
+    box-sizing: border-box;
+}
+.columna{
+    float: left;
+    width: 33%;
+    padding: 10px;
+    height: 300px;
+    border-style: inset;
+    margin-left: 3px;
+   
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*Estilos CONTACTO*/
+.contacto-edit{
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 20px;  
+    margin-left: 10px;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    color: var(--text-color);
+}
+
+.contacto-edit{
+    color: var(--text-color);
+}
+
+.btn-open{
+    background-color: var(--primary-color);
+    color: var(--theme-color);
+    border: none;
+    font-size: 20px;
+    padding: 0.5em 1em;
+    border-radius: 7px;
+    cursor: pointer;
+    display: block;
+    margin-left: 480px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    float: left; 
+}
+
+.btn-close{
+    background-color: var(--primary-color);
+    color: var(--theme-color);
+    border: none;
+    font-size: 20px;
+    padding: 0.5em 1em;
+    border-radius: 7px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 20px; 
+    list-style: none;
+    
+}
